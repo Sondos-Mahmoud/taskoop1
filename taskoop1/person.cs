@@ -8,8 +8,8 @@ namespace taskoop1
 {
     internal struct person
     {
-        public string Name { get; set; }
-        public int Age { get; set; }
+        public string Name;
+        public int Age;
 
         public person(string name, int age)
         {
